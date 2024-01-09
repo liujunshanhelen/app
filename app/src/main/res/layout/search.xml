@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background3"
+        tools:context=".search">
+
+
+    <ImageButton
+            android:id="@+id/return_before"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/return_before"
+            android:background="@android:color/transparent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintVertical_bias="0.07"/>
+
+    <!--    <hlq.tablbeview.TableView-->
+<!--            app:rownum="600"-->
+<!--            app:colnum="400"-->
+<!--            android:id="@+id/table"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            tools:ignore="MissingConstraints"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.50"-->
+<!--            app:layout_constraintVertical_bias="0.18"-->
+<!--            />-->
+
+
+    <EditText
+            android:id="@+id/search_text"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:hint="请输入姓名"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColorHint="#888888"
+            android:background="@drawable/edit_background2"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.78"
+            app:layout_constraintVertical_bias="0.071"/>
+
+    <ScrollView
+            android:layout_width="395dp"
+            android:layout_height="692dp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.50"
+            app:layout_constraintVertical_bias="1">
+
+        <hlq.tablbeview.TableView
+                app:rownum="50"
+                app:colnum="2"
+                android:id="@+id/tabview"
+                android:layout_width="match_parent"
+                android:layout_height="580dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintVertical_bias="1.0"
+
+                />
+    </ScrollView>
+    <ImageButton
+            android:id="@+id/shan_menu"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:src="@drawable/shan_menu"
+            android:background="@android:color/transparent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0.95"/>
+    <TextView
+            android:id="@+id/match_name"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:text="统计人流量"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:gravity="left"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0.935"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

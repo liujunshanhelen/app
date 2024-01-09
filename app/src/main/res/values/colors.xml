@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBlue">#5664d1</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#999fcc</color>
+    <color name="colorGreen">#000000</color>
+    <color name="colorPurple">#b1bfcb</color>
+    <color name="colorGray">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="none">#00FFFFFF</color> <!-- 透明 -->
+</resources>

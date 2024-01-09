@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main_common"
+        android:background="@drawable/background3"
+        android:orientation="vertical">
+
+    <!--    <com.google.android.material.appbar.AppBarLayout-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:theme="@style/AppTheme.AppBarOverlay"-->
+    <!--            tools:ignore="MissingConstraints">-->
+
+    <!--        <androidx.appcompat.widget.Toolbar-->
+    <!--                android:id="@+id/toolbar"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="?attr/actionBarSize"-->
+    <!--                android:background="?attr/colorPrimary"-->
+    <!--                app:popupTheme="@style/AppTheme.PopupOverlay"/>-->
+
+    <!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <ImageButton
+            android:id="@+id/setting"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/setting"
+            android:layout_gravity="top"
+            android:background="@android:color/transparent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.99"
+            app:layout_constraintVertical_bias="0.07"/>
+
+    <!--    <include layout="@layout/content_main"/>-->
+
+    <TextView
+            android:id="@+id/welcome"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:text="欢迎使用"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0.29"/>
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:text="静脉识别与测温系统"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0.389"/>
+
+    <ImageView
+            android:id="@+id/p4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/produce4"
+            android:background="@android:color/transparent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.597"
+            app:layout_constraintVertical_bias="0.725"/>
+
+    <TextView
+            android:id="@+id/t3"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:text="90%+"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.298"
+            app:layout_constraintVertical_bias="0.819"/>
+
+    <ImageView
+            android:id="@+id/p1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/produce1"
+            android:background="@android:color/transparent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.099"
+            app:layout_constraintVertical_bias="0.725"/>
+
+    <TextView
+            android:id="@+id/t2"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:text="safe"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.829"
+            app:layout_constraintVertical_bias="0.694"/>
+
+    <ImageView
+            android:id="@+id/p3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/produce3"
+            android:background="@android:color/transparent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.597"
+            app:layout_constraintVertical_bias="0.854"/>
+
+    <TextView
+            android:id="@+id/t31"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:text="温度测量"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.869"
+            app:layout_constraintVertical_bias="0.864"/>
+
+    <TextView
+            android:id="@+id/t1"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:text="2s~3s"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.298"
+            app:layout_constraintVertical_bias="0.694"/>
+
+    <TextView
+            android:id="@+id/t21"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:text="隐私保护"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.869"
+            app:layout_constraintVertical_bias="0.744"/>
+
+    <TextView
+            android:id="@+id/t41"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:text="高准确率"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.313"
+            app:layout_constraintVertical_bias="0.864"/>
+
+    <TextView
+            android:id="@+id/t4"
+            android:layout_width="66dp"
+            android:layout_height="25dp"
+            android:text="health"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.828"
+            app:layout_constraintVertical_bias="0.819"/>
+
+    <TextView
+            android:id="@+id/t11"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:text="快速匹配"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.313"
+            app:layout_constraintVertical_bias="0.744"/>
+
+    <ImageView
+            android:id="@+id/p2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/produce2"
+            android:background="@android:color/transparent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.099"
+            app:layout_constraintVertical_bias="0.854"/>
+
+<!--    <ImageButton-->
+<!--            android:id="@+id/button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom|end"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:src="@drawable/function"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            tools:ignore="MissingConstraints"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.99"-->
+<!--            app:layout_constraintVertical_bias="0.99"/>-->
+<!--    <ImageButton-->
+<!--            android:id="@+id/add"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:visibility="invisible"-->
+<!--            android:layout_gravity="bottom|end"-->
+<!--            android:src="@drawable/add"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            tools:ignore="MissingConstraints"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.99"-->
+<!--            app:layout_constraintVertical_bias="0.99"/>-->
+    <Button
+            android:id="@+id/shan"
+            android:layout_width="160sp"
+            android:layout_height="50sp"
+            android:layout_margin="16dp"
+            android:background="@android:color/white"
+            android:text="安全出行"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintVertical_bias="1"/>
+    <Button
+            android:id="@+id/search"
+            android:layout_width="160sp"
+            android:layout_height="50sp"
+            android:layout_margin="16dp"
+            android:background="@android:color/white"
+            android:text="出行记录"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintVertical_bias="1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical" >
+
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="12dp"
+            android:text="高温预警！！！"
+            android:background="#fff"
+            android:textSize="20sp"
+            android:textColor="#ff0000"/>
+
+    <TextView
+            android:id="@+id/url"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="您当前体温过高，如有不适请及时就诊"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ccc"/>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+        <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#fff"/>
+
+
+        <TextView
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:layout_weight="1.0"
+                android:text="确定"
+                android:textSize="16sp"
+                android:textColor="#ffffff"/>
+    </LinearLayout>
+</LinearLayout>

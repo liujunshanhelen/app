@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".login"
+        android:background="@drawable/background3"
+        android:orientation="vertical">
+
+    <EditText
+            android:id="@+id/id_input"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:hint="请输入账号"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColorHint="#888888"
+            android:background="@drawable/edit_background2"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.699"
+            app:layout_constraintVertical_bias="0.404"/>
+
+    <ImageView
+            android:id="@+id/name_text"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/login_id"
+            android:background="@android:color/transparent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.082"
+            app:layout_constraintVertical_bias="0.402"/>
+
+    <EditText
+            android:id="@+id/secret_input"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:hint=" 请输入密码"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColorHint="#888888"
+            android:background="@drawable/edit_background2"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.699"
+            app:layout_constraintVertical_bias="0.512"/>
+
+    <ImageView
+            android:id="@+id/id_text"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/login_secret"
+            android:background="@android:color/transparent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.082"
+            app:layout_constraintVertical_bias="0.51"/>
+
+    <TextView
+            android:id="@+id/welcome"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="用户登录"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0.2"/>
+
+    <Button
+            android:id="@+id/login"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:text="登录"
+            android:background="@drawable/edit_background"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.85"
+            app:layout_constraintHorizontal_bias="0.5"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
